@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Application", "DDD.Application\DDD.Application.csproj", "{E9D08640-544D-4E07-A295-29B795CE1A63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Application", "DDD.Application\DDD.Application.csproj", "{E9D08640-544D-4E07-A295-29B795CE1A63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Domain", "DDD.Domain\DDD.Domain.csproj", "{C80F0309-25C2-40A0-AB01-F250D8B5A97D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Domain", "DDD.Domain\DDD.Domain.csproj", "{C80F0309-25C2-40A0-AB01-F250D8B5A97D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Infra.Data", "DDD.Infra.Data\DDD.Infra.Data.csproj", "{27C08DC5-3D70-4BD7-B94E-8419EB12C116}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Infra.Data", "DDD.Infra.Data\DDD.Infra.Data.csproj", "{27C08DC5-3D70-4BD7-B94E-8419EB12C116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Service", "DDD.Service\DDD.Service.csproj", "{ADD8706C-5FD3-424C-9C8E-E0316A55D9A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Service", "DDD.Service\DDD.Service.csproj", "{ADD8706C-5FD3-424C-9C8E-E0316A55D9A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Tests", "DDD.Tests\DDD.Tests.csproj", "{555FCD7D-37B7-41A3-9FA0-1FEC3482DD04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E9D08640-544D-4E07-A295-29B795CE1A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,5 +71,23 @@ Global
 		{ADD8706C-5FD3-424C-9C8E-E0316A55D9A3}.Release|x64.Build.0 = Release|Any CPU
 		{ADD8706C-5FD3-424C-9C8E-E0316A55D9A3}.Release|x86.ActiveCfg = Release|Any CPU
 		{ADD8706C-5FD3-424C-9C8E-E0316A55D9A3}.Release|x86.Build.0 = Release|Any CPU
+		{555FCD7D-37B7-41A3-9FA0-1FEC3482DD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{555FCD7D-37B7-41A3-9FA0-1FEC3482DD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{555FCD7D-37B7-41A3-9FA0-1FEC3482DD04}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{555FCD7D-37B7-41A3-9FA0-1FEC3482DD04}.Debug|x64.Build.0 = Debug|Any CPU
+		{555FCD7D-37B7-41A3-9FA0-1FEC3482DD04}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{555FCD7D-37B7-41A3-9FA0-1FEC3482DD04}.Debug|x86.Build.0 = Debug|Any CPU
+		{555FCD7D-37B7-41A3-9FA0-1FEC3482DD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{555FCD7D-37B7-41A3-9FA0-1FEC3482DD04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{555FCD7D-37B7-41A3-9FA0-1FEC3482DD04}.Release|x64.ActiveCfg = Release|Any CPU
+		{555FCD7D-37B7-41A3-9FA0-1FEC3482DD04}.Release|x64.Build.0 = Release|Any CPU
+		{555FCD7D-37B7-41A3-9FA0-1FEC3482DD04}.Release|x86.ActiveCfg = Release|Any CPU
+		{555FCD7D-37B7-41A3-9FA0-1FEC3482DD04}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A622E173-C78E-4D0E-A08D-72E4BFE0A652}
 	EndGlobalSection
 EndGlobal
